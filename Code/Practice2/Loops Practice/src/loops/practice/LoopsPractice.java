@@ -24,21 +24,21 @@ public class LoopsPractice {
         // TODO code application logic here
         
         LoopsPractice ciclos = new LoopsPractice();
-        LoopsPractice.ejercicio1();
-        LoopsPractice.ejercicio2();
-        LoopsPractice.ejercicio3();
-        LoopsPractice.ejercicio4();
-        LoopsPractice.ejercicio5();
-        LoopsPractice.ejercicio6();
-        LoopsPractice.ejercicio7();
-        LoopsPractice.ejercicio8();
-        LoopsPractice.ejercicio9();
-        LoopsPractice.ejercicio10();
-        LoopsPractice.ejercicio11();
-        LoopsPractice.ejercicio12();
-        LoopsPractice.ejercicio13();
-        LoopsPractice.ejercicio14();
-        LoopsPractice.ejercicio15();
+        ciclos.ejercicio1();
+        ciclos.ejercicio2();
+        ciclos.ejercicio3();
+        ciclos.ejercicio4();
+        ciclos.ejercicio5();
+        ciclos.ejercicio6();
+        ciclos.ejercicio7();
+        ciclos.ejercicio8();
+        ciclos.ejercicio9();
+        ciclos.ejercicio10();
+        ciclos.ejercicio11();
+        ciclos.ejercicio12();
+        ciclos.ejercicio13();
+        ciclos.ejercicio14();
+        ciclos.ejercicio15();
     }
     
     public static void ejercicio1(){     
