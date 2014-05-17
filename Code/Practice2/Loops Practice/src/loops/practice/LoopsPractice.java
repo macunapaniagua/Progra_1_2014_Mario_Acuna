@@ -94,7 +94,7 @@ public class LoopsPractice {
         
         for (;inicioSerie<= finSerie; inicioSerie += incremento) {
             System.out.print(inicioSerie);
-            System.out.println(" - ");
+            System.out.print(" - ");
         }
         System.out.println("\n");       
     }
