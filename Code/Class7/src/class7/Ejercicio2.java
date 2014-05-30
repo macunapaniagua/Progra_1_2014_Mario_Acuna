@@ -35,6 +35,39 @@ public class Ejercicio2 {
         }
         return retorno;
     }
+    
+    public int contarVocales(){        
+        int cantidad = 0;
+        
+        for (int i = 0; i < getCadena().length(); i++) {            
+            char letra = Character.toLowerCase(getCadena().charAt(i));            
+            if(letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u'){
+                cantidad++;
+            }            
+        }
+        return cantidad;
+    }
+    
+    public String conGuion(){
+        String retorno = "";        
+        for (int i = 0; i < getCadena().length(); i++) {
+            retorno += getCadena().charAt(i);
+            if(i != (getCadena().length()-1)){
+                retorno += "-";
+            }            
+        }
+        return retorno;
+    }
+    
+    public boolean Palindromo(){
+        
+        String palabraAlRevez = this.Alrevez();
+        
+        if(getCadena().equals(palabraAlRevez))
+            return true;
+        else
+            return false;
+    }
 
     /**
      * @return the cadena

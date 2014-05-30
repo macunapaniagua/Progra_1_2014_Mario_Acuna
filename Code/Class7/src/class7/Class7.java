@@ -41,12 +41,19 @@ public class Class7 {
                     Ejercicio2 oEjercicio2 = new Ejercicio2();
                     oScanner = new Scanner(System.in);
                     oEjercicio2.setCadena(oScanner.nextLine());
+                    System.out.print("La primera mitad de la cadena es: ");
                     System.out.println(oEjercicio2.mediaCadena());
+                    System.out.print("El ultimo valor de la cadena es: ");
                     System.out.println(oEjercicio2.ultimoValor());
+                    System.out.print("La palabra al revez es: ");
                     System.out.println(oEjercicio2.Alrevez());
+                    System.out.println("La cantidad de vocales presentes es: " + oEjercicio2.contarVocales());
+                    System.out.println("La palabra con guiones es: " + oEjercicio2.conGuion());
+                    System.out.print("La palabra es un palindromo?: ");
+                    System.out.println(oEjercicio2.Palindromo());                                      
                     break;                
             }
-        } while (opcion <= 7);
+        } while (opcion <= 2);
 
     }
 
