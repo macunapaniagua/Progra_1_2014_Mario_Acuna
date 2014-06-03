@@ -21,6 +21,7 @@ public class Practice8 {
         // TODO code application logic here
         
         methodsString oMetodos = new methodsString();
+        claseString oString = new claseString();        
         Scanner teclado = new Scanner(System.in);
         
         System.out.println(oMetodos.rotarPalabra("mario"));
@@ -29,6 +30,11 @@ public class Practice8 {
         System.out.println(oMetodos.buscarPalabraConFor("habian autos muchos autos", "autos"));
         System.out.println(oMetodos.cantidadOcurrencias("habian autos autociclo autos muchos autos", "autos"));
         
+        oString.setCadena("Habian muchos autos muchos");
+        System.out.println(oString.subString(3, 9));
+        System.out.println(oString.toUpperCase());
+                
+        System.out.println(oString.indexOf("dos", 8));
     }
     
 }
