@@ -65,7 +65,7 @@ public class Clase9 {
                 default:
                     break;
             }
-        } while (opcion < 5);
+        } while (opcion < 4);
 
     }
 
