@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package clase14;
 
 /**
@@ -17,17 +16,24 @@ public class Clase14 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        int [] arreglo = {56,4,85,85,42};
+
+        int[] arreglo = {56, 4, 85, 85, 42};
         int[] arregloOrdenado;
+
         OrdenamientoSeleccion os = new OrdenamientoSeleccion();
         arregloOrdenado = os.OrdenS(arreglo, "A");
         System.out.println("Selection Sort");
         for (int i = 0; i < arregloOrdenado.length; i++) {
             System.out.print(arregloOrdenado[i] + "  ");
-            
         }
+        
         System.out.println("");
+        OrdenamientoBurbuja ob = new OrdenamientoBurbuja();
+        arregloOrdenado = ob.OrdenarArreglo(arreglo, "A");
+        System.out.println("Ordenamiento Burbuja");
+        for (int i = 0; i < arregloOrdenado.length; i++) {
+            System.out.print(arregloOrdenado[i] + "  ");
+        }
     }
-    
+
 }
